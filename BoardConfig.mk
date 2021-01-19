@@ -19,6 +19,9 @@
 
 DEVICE_PATH := device/oneplus/fajita
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := OnePlus6T,fajita
+
 # FOD
 TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.oneplus_fajita
 
