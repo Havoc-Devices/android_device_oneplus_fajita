@@ -20,4 +20,8 @@
 
     <!-- Show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
+
+    <!-- Do the battery/notification LEDs support pulsing?
+         Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">false</bool>
 </resources>
