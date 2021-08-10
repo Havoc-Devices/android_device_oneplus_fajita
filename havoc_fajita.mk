@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common Havoc-OS stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
+# official tag
+export export HAVOC_BUILD_TYPE=Official
+
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
