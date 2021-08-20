@@ -28,9 +28,6 @@ $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 # Inherit packages from vendor/addons/oneplus/apps
 $(call inherit-product, vendor/addons/oneplus/apps/config.mk)
 
-# official tag
-export export HAVOC_BUILD_TYPE=Official
-
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
