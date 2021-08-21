@@ -25,8 +25,8 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 
-# Inherit packages from vendor/addons/oneplus/apps
-$(call inherit-product, vendor/addons/oneplus/apps/config.mk)
+
+
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
