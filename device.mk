@@ -39,9 +39,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.oneplus_fajita \
-    vendor.oneplus.fingerprint.extension@1.0 \
-    vendor.oneplus.hardware.display@1.0
+    lineage.biometrics.fingerprint.inscreen@1.0-service.oneplus
 
 # Wifi Overlay
 PRODUCT_PACKAGES += \
