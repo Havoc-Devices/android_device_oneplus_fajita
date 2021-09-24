@@ -24,10 +24,6 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common Havoc-OS stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
-# Official
-HAVOC_BUILD_TYPE := Official
-HAVOC_MAINTAINER := Vikas (OptimussPriime)
-HAVOC_GROUP_URL := https://t.me/havoc_oneplus6t
 
 
 # Boot Animation
