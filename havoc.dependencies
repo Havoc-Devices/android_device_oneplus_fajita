@@ -1,0 +1,26 @@
+[
+   {
+      "repository"  : "android_device_oneplus_sdm845-common",
+      "target_path" : "device/oneplus/sdm845-common"
+   },
+   {
+      "repository"  : "android_kernel_oneplus_sdm845",
+      "target_path" : "kernel/oneplus/sdm845"
+   },
+   {
+      "repository"  : "android_vendor_oneplus_sdm845-common",
+      "target_path" : "vendor/oneplus/sdm845-common"
+   },
+   {
+      "repository"  : "android_hardware_oneplus",
+      "target_path" : "hardware/oneplus"
+   },
+   {
+      "repository"  : "android_prebuilts_clang_host_linux-x86_clang-r428724",
+      "target_path" : "prebuilts/clang/host/linux-x86/clang-r428724"
+   },
+   {
+      "repository"  : "android_vendor_addons_oneplus_apps_oneplus6t",
+      "target_path" : "vendor/addons/oneplus/apps"
+   }
+]
