@@ -22,6 +22,10 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 DEVICE_PATH := device/oneplus/fajita
 
+# Prebuilt recovery ramdisk
+-include device/oneplus/fajita/recovery/prebuilt_recovery.mk
+
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus6T,fajita
 
