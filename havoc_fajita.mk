@@ -27,6 +27,9 @@ $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Havoc addons
+TARGET_SUPPORTS_SOUND_ACCESSIBILITY := false
+
 # Live Wallpapers
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
