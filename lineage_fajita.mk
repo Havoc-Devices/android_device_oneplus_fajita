@@ -41,3 +41,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus6T-user 9 PKQ1.180716.001 1812260627 release-keys"
 
 BUILD_FINGERPRINT := OnePlus/OnePlus6T/OnePlus6T:9/PKQ1.180716.001/1812260627:user/release-keys
+
+
+# Havoc-OS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.device.name=Oneplus 6t \
+    ro.havoc.group.url=https://t.me/+tNPSDUw3FUJlNDQ1 \
+    ro.havoc.maintainer=Vikas Yaduvanshi \
+    ro.havoc.maintainer.username=Optimusprime \
